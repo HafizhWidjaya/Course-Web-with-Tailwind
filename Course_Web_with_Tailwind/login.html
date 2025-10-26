@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body class="font-[Poppins]">
+    <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-lg text-center">
+            <h1 class="text-2xl font-bold sm:text-3xl">Welcome <span class="text-indigo-900 font-bold">("Back!")</span>
+            </h1>
+        </div>
+
+        <form class="mx-auto mb-0 mt-8 max-w-md space-y-4" action="#">
+            <div>
+                <label class="sr-only" for="email">Email</label>
+                <div class="relative">
+                    <input placeholder="Enter your email"
+                        class="w-full rounded-lg border-gray-300 p-4 pe-12 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent"
+                        id="email" type="email" />
+                    <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
+                        <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6 text-gray-400"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+                                stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <label class="sr-only" for="password">Password</label>
+                <div class="relative">
+                    <input placeholder="Enter your password"
+                        class="w-full rounded-lg border-gray-300 p-4 pe-12 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent"
+                        id="password" type="password" />
+                    <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
+                        <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6 text-gray-400"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-width="2" stroke-linejoin="round"
+                                stroke-linecap="round"></path>
+                            <path
+                                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                                stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between">
+                <p class="text-sm text-gray-600">
+                    Need an account?
+                    <a href="create_account.html" class="underline">Create one</a>
+                </p>
+                <button
+                    class="inline-block rounded-lg bg-indigo-900 px-5 py-3 text-sm font-medium text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+                    type="submit">
+                    Sign In
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="bg-gray-200 py-10">
+        <div class="max-w-lg ml-4 mt-15 font-[Poppins]">
+            <h1 class="text-3xl my-4 font-medium">Did You <span class="text-indigo-800">Know?</span></h1>
+            <p class="font-medium ml-15">"Hello, World!" adalah tradisi pertama dalam belajar coding
+                hampir semua programmer pemula memulai dengan program sederhana yang hanya mencetak "hello, world!" ke
+                layar. tradisi ini berasal dari buku the c programming language karya brian kernighan dan dennis
+                ritchie.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
